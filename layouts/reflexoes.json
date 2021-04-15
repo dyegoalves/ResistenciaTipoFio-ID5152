@@ -75,7 +75,7 @@
       "name": "telaLinha",
       "persistentUuid": "ba253874-0119-40ae-bae9-6f0718405932",
       "width": 2,
-      "x": 0,
+      "x": 1,
       "y": 0,
       "zOrder": 3,
       "numberProperties": [],
@@ -91,7 +91,7 @@
       "name": "telaLinha",
       "persistentUuid": "38a2087d-9a5f-4c26-9c78-3e243f0631b5",
       "width": 2,
-      "x": 798,
+      "x": 797,
       "y": 1,
       "zOrder": 3,
       "numberProperties": [],
@@ -331,8 +331,8 @@
       "name": "btVoltarCena",
       "persistentUuid": "8a3d1329-7a9a-4306-a6a1-f134a603c05d",
       "width": 65,
-      "x": 719,
-      "y": 39,
+      "x": 701,
+      "y": 45,
       "zOrder": 36,
       "numberProperties": [],
       "stringProperties": [],
@@ -350,6 +350,38 @@
       "x": 550,
       "y": 100,
       "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "titulosMenuTop2",
+      "persistentUuid": "d1c488de-0e2f-48cc-ad7f-15b97f22e4c9",
+      "width": 0,
+      "x": 1209,
+      "y": 132,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "textSM10",
+      "persistentUuid": "ae407537-112f-4515-83e2-f897ca62f538",
+      "width": 0,
+      "x": 548,
+      "y": 116,
+      "zOrder": 39,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -536,6 +568,63 @@
         "b": 60,
         "g": 51,
         "r": 11
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "textSM15",
+      "smoothed": true,
+      "tags": "Moldura",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "15cm²",
+      "font": "",
+      "characterSize": 30,
+      "color": {
+        "b": 5,
+        "g": 117,
+        "r": 65
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "textSM20",
+      "smoothed": true,
+      "tags": "Moldura",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "20cm²",
+      "font": "",
+      "characterSize": 30,
+      "color": {
+        "b": 5,
+        "g": 117,
+        "r": 65
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "textSM25",
+      "smoothed": true,
+      "tags": "Moldura",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "25cm²",
+      "font": "",
+      "characterSize": 30,
+      "color": {
+        "b": 5,
+        "g": 117,
+        "r": 65
       }
     },
     {
@@ -770,25 +859,6 @@
       ]
     },
     {
-      "bold": true,
-      "italic": false,
-      "name": "textSM15",
-      "smoothed": true,
-      "tags": "Moldura",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "15cm²",
-      "font": "",
-      "characterSize": 30,
-      "color": {
-        "b": 5,
-        "g": 117,
-        "r": 65
-      }
-    },
-    {
       "name": "btSm10",
       "tags": "",
       "type": "Sprite",
@@ -883,25 +953,6 @@
       ]
     },
     {
-      "bold": true,
-      "italic": false,
-      "name": "textSM20",
-      "smoothed": true,
-      "tags": "Moldura",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "20cm²",
-      "font": "",
-      "characterSize": 30,
-      "color": {
-        "b": 5,
-        "g": 117,
-        "r": 65
-      }
-    },
-    {
       "name": "btSm20",
       "tags": "",
       "type": "Sprite",
@@ -947,25 +998,6 @@
           ]
         }
       ]
-    },
-    {
-      "bold": true,
-      "italic": false,
-      "name": "textSM25",
-      "smoothed": true,
-      "tags": "Moldura",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "25cm²",
-      "font": "",
-      "characterSize": 30,
-      "color": {
-        "b": 5,
-        "g": 117,
-        "r": 65
-      }
     },
     {
       "name": "btSm25",
