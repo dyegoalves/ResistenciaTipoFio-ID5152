@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": false,
     "windowMask": false,
-    "zoomFactor": 0.6599999999999999
+    "zoomFactor": 0.47999999999999976
   },
   "objectsGroups": [],
   "variables": [
@@ -139,73 +139,9 @@
       "name": "titulosMenuBot22",
       "persistentUuid": "0b2fdf33-5cce-4236-af95-72fe619da4c4",
       "width": 0,
-      "x": 616,
-      "y": 575,
+      "x": 478,
+      "y": 577,
       "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 300,
-      "layer": "Block",
-      "locked": false,
-      "name": "Block",
-      "persistentUuid": "78bd57e5-a610-4d15-b4ac-162afb53d925",
-      "width": 913,
-      "x": -55,
-      "y": 363,
-      "zOrder": 22,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 714,
-      "layer": "Block",
-      "locked": false,
-      "name": "Block",
-      "persistentUuid": "3d01573e-26b6-4472-9049-3de175a0c78c",
-      "width": 325,
-      "x": -332,
-      "y": -37,
-      "zOrder": 22,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 395,
-      "layer": "Block",
-      "locked": false,
-      "name": "Block",
-      "persistentUuid": "229f4db9-7866-4b5b-a5ee-21ee9bf3b9db",
-      "width": 917,
-      "x": -52,
-      "y": -317,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 714,
-      "layer": "Block",
-      "locked": false,
-      "name": "Block",
-      "persistentUuid": "80fd3520-a3ba-4b0b-9665-71b9b30f8dc7",
-      "width": 325,
-      "x": 804,
-      "y": -74,
-      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -219,8 +155,8 @@
       "name": "titulosMenuBot2",
       "persistentUuid": "c4b676ca-cab4-4c0f-9c4b-f8d98346d795",
       "width": 0,
-      "x": 11,
-      "y": 576,
+      "x": 7,
+      "y": 577,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -361,25 +297,6 @@
       }
     },
     {
-      "bold": false,
-      "italic": true,
-      "name": "titulosMenuTop2",
-      "smoothed": true,
-      "tags": "Moldura",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "Menu de Ajuda :",
-      "font": "",
-      "characterSize": 16,
-      "color": {
-        "b": 60,
-        "g": 51,
-        "r": 11
-      }
-    },
-    {
       "bold": true,
       "italic": false,
       "name": "textAjudaUseMenu",
@@ -420,25 +337,6 @@
     {
       "bold": true,
       "italic": false,
-      "name": "textMenuSM",
-      "smoothed": true,
-      "tags": "Moldura",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "Seção do Material:",
-      "font": "",
-      "characterSize": 30,
-      "color": {
-        "b": 60,
-        "g": 51,
-        "r": 11
-      }
-    },
-    {
-      "bold": false,
-      "italic": false,
       "name": "titulosMenuBot2",
       "smoothed": true,
       "tags": "Moldura",
@@ -446,9 +344,9 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "SENAI-RS Núcleo de Educação a Distância ",
+      "string": "SENAI-RS - Gerência de Desenvolvimento Educacional",
       "font": "",
-      "characterSize": 16,
+      "characterSize": 14,
       "color": {
         "b": 60,
         "g": 51,
@@ -456,7 +354,7 @@
       }
     },
     {
-      "bold": false,
+      "bold": true,
       "italic": false,
       "name": "titulosMenuBot22",
       "smoothed": true,
@@ -465,245 +363,14 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "© 2021 SENAI-RS EAD",
+      "string": " ©\t2006 SENAI-RS EAD ATUALIZADO EM 2021",
       "font": "",
-      "characterSize": 16,
+      "characterSize": 14,
       "color": {
         "b": 60,
         "g": 51,
         "r": 11
       }
-    },
-    {
-      "name": "btAjuda",
-      "tags": "Moldura",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": true,
-          "platformType": "NormalPlatform",
-          "yGrabOffset": 0
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "288.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "288-b",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.07999999821186066,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "288-b.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "btInfo",
-      "tags": "Moldura",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
-        {
-          "name": "movUp",
-          "type": "string",
-          "value": "0"
-        },
-        {
-          "name": "",
-          "type": "string",
-          "value": ""
-        }
-      ],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "291.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.07999999821186066,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "291-b.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "btCreditos",
-      "tags": "Moldura",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": true,
-          "platformType": "NormalPlatform",
-          "yGrabOffset": 0
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "285.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "285-b",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.07999999821186066,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "285 -b.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
     },
     {
       "bold": true,
@@ -723,298 +390,6 @@
         "g": 51,
         "r": 11
       }
-    },
-    {
-      "bold": true,
-      "italic": false,
-      "name": "textSM15",
-      "smoothed": true,
-      "tags": "Moldura",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "15cm²",
-      "font": "",
-      "characterSize": 30,
-      "color": {
-        "b": 5,
-        "g": 117,
-        "r": 65
-      }
-    },
-    {
-      "name": "btSm10",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": true,
-          "platformType": "NormalPlatform",
-          "yGrabOffset": 0
-        }
-      ],
-      "animations": [
-        {
-          "name": "ms255",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.07999999821186066,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "ms255-1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "btSm15",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": true,
-          "platformType": "NormalPlatform",
-          "yGrabOffset": 0
-        }
-      ],
-      "animations": [
-        {
-          "name": "ms255",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.07999999821186066,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "ms255-1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "bold": true,
-      "italic": false,
-      "name": "textSM20",
-      "smoothed": true,
-      "tags": "Moldura",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "20cm²",
-      "font": "",
-      "characterSize": 30,
-      "color": {
-        "b": 5,
-        "g": 117,
-        "r": 65
-      }
-    },
-    {
-      "name": "btSm20",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": true,
-          "platformType": "NormalPlatform",
-          "yGrabOffset": 0
-        }
-      ],
-      "animations": [
-        {
-          "name": "ms255",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.07999999821186066,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "ms255-1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "bold": true,
-      "italic": false,
-      "name": "textSM25",
-      "smoothed": true,
-      "tags": "Moldura",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "25cm²",
-      "font": "",
-      "characterSize": 30,
-      "color": {
-        "b": 5,
-        "g": 117,
-        "r": 65
-      }
-    },
-    {
-      "name": "btSm25",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": true,
-          "platformType": "NormalPlatform",
-          "yGrabOffset": 0
-        }
-      ],
-      "animations": [
-        {
-          "name": "ms255",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.07999999821186066,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "ms255-1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Block",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": true,
-          "platformType": "NormalPlatform",
-          "yGrabOffset": 0
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.07999999821186066,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "NewObject-1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "events": [

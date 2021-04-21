@@ -450,37 +450,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "NewObject2-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject2-1-0.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "formula.PNG",
         "kind": "image",
         "metadata": "",
         "name": "formula.PNG",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "klipartz.com - Copia.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "klipartz.com - Copia.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "s1-1-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "s1-1-2.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -610,21 +583,21 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "resistencia24-1-1-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "resistencia24-1-1-2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "resistencia24-1.png",
         "kind": "image",
         "metadata": "",
         "name": "resistencia24-1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "1bb3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1bb3.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

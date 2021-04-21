@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": false,
     "windowMask": false,
-    "zoomFactor": 0.6200000000000003
+    "zoomFactor": 0.5200000000000002
   },
   "objectsGroups": [],
   "variables": [
@@ -139,8 +139,8 @@
       "name": "titulosMenuBot",
       "persistentUuid": "7fdbf874-a9a5-447c-8374-6ba391ecefff",
       "width": 0,
-      "x": 11,
-      "y": 576,
+      "x": 7,
+      "y": 577,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -225,7 +225,7 @@
       "name": "carPlayer",
       "persistentUuid": "9fa6260f-1786-42f4-898b-ff1babd093ea",
       "width": 72,
-      "x": 79,
+      "x": 91,
       "y": 331,
       "zOrder": 5,
       "numberProperties": [],
@@ -321,8 +321,8 @@
       "name": "titulosMenuBot22",
       "persistentUuid": "0b2fdf33-5cce-4236-af95-72fe619da4c4",
       "width": 0,
-      "x": 607,
-      "y": 575,
+      "x": 478,
+      "y": 577,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -706,7 +706,7 @@
       }
     },
     {
-      "bold": false,
+      "bold": true,
       "italic": false,
       "name": "titulosMenuBot",
       "smoothed": true,
@@ -715,9 +715,9 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "SENAI-RS Núcleo de Educação a Distância ",
+      "string": "SENAI-RS - Gerência de Desenvolvimento Educacional",
       "font": "",
-      "characterSize": 16,
+      "characterSize": 14,
       "color": {
         "b": 60,
         "g": 51,
@@ -744,7 +744,7 @@
       }
     },
     {
-      "bold": false,
+      "bold": true,
       "italic": false,
       "name": "titulosMenuBot22",
       "smoothed": true,
@@ -753,32 +753,13 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "© 2021 SENAI-RS EAD",
+      "string": " ©\t2006 SENAI-RS EAD ATUALIZADO EM 2021",
       "font": "",
-      "characterSize": 16,
+      "characterSize": 14,
       "color": {
         "b": 60,
         "g": 51,
         "r": 11
-      }
-    },
-    {
-      "bold": true,
-      "italic": false,
-      "name": "titulosMenuBot2",
-      "smoothed": true,
-      "tags": "Moldura",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "SENAI-RS Núcleo de Educação a Distância ",
-      "font": "",
-      "characterSize": 14,
-      "color": {
-        "b": 255,
-        "g": 0,
-        "r": 57
       }
     },
     {
@@ -1071,45 +1052,6 @@
       ]
     },
     {
-      "name": "inicioGaragem",
-      "tags": "Rua",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "270",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.07999999821186066,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "270-1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "garagemPista",
       "tags": "Rua",
       "type": "Sprite",
@@ -1128,45 +1070,6 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "270-1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "marcaPista",
-      "tags": "Rua",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewObject2",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.07999999821186066,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "NewObject2-1-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1431,74 +1334,6 @@
       ]
     },
     {
-      "name": "btSelecSAll",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "s1",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.07999999821186066,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "s1-1-2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "klipartz",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.07999999821186066,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "klipartz.com - Copia.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "btBotaoMenuCall",
       "tags": "",
       "type": "Sprite",
@@ -1664,18 +1499,6 @@
           },
           "parameters": [
             "btInfo",
-            "=",
-            "0"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ChangeAnimation"
-          },
-          "parameters": [
-            "btSelecSAll",
             "=",
             "0"
           ],
